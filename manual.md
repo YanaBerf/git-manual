@@ -8,15 +8,15 @@ Git - мощная и сложная распределённая система
 
 ## установка Git
 
-[скачать и установить https://git-scm.com/](https://git-scm.com/)
+**[скачать и установить https://git-scm.com/](https://git-scm.com/)**
 
 ## Установка имени и электронной почты
 
 Выполните следующие команды, чтобы git узнал ваше имя и электронную почту.
 
-git config --global user.name "Your Name"
+*git config --global user.name "Your Name"*
 
-git config --global user.email "your_email@whatever.com"
+*git config --global user.email "your_email"*
 
 ## Создайте папку и файл
 
@@ -24,5 +24,72 @@ git config --global user.email "your_email@whatever.com"
 
 ## Создайте репозиторий
 
-Теперь у вас есть папка с одним файлом. Чтобы создать git репозиторий из этой папки, выполните команду git init.
+Теперь у вас есть папка с одним файлом. Чтобы создать git репозиторий из этой папки, выполните команду *git init*.
+
+## Добавьте страницу в репозиторий
+
+Давайте добавим в репозиторий файл, который перед этим создали в папке.
+
+*git add название вашего файла*
+
+*git commit -m "First Commit"*
+
+## Проверьте состояние репозитория
+
+* Используйте команду *git status*, чтобы проверить текущее состояние репозитория.
+
+* Измените ваш файл, а затем проверьте состояние *git status*
+
+* вы увидите:
+
+     *$ git status*
+
+    *On branch master*
+
+    *Changes not staged for commit:*
+
+   *(use "git add <file>..." to update what will be committed)*
+
+  *(use "git checkout -- <file>..." to discard*
+
+  *changes in working directory)*
+
+	*modified:   ваш файл*
+
+    *no changes added to commit (use "git add" and/*
+
+    *or "git commit -a")*
+
+## Индексация изменений
+
+Дайте команду git проиндексировать изменения
+
+*git add ваш файл*
+
+Проверьте состояние *git status*
+
+## Коммит
+
+Сделаем коммит того, что мы изменили 
+
+*git commit -m "ваш комментарий"*
+
+## Как просмотреть все коммиты
+
+С помощью *git log*
+
+## Как вернуться к предыдущему состоянию 
+
+с помощью *git checkout хеш-данные*
+
+## Как вернуться в текущую версию
+
+с помощью *git checkout master*
+
+## Как изменить содержание коммита
+
+набираем команду *git commit* без *m*, вам откроется редактор для изменения содержания коммита 
+
+
+
 
