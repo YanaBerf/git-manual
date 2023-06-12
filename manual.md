@@ -11,22 +11,9 @@ Git - мощная и сложная распределённая система
 >Я очень доволен Git. Он работает исключительно хорошо с кодом ядра и по-прежнему следует моим ожиданиям
 
 ## Установка git 
-xgctyjhgfh
-bvhjmlkmbhj
-vchjhnknbfg
-dttyyokmlkky
-fsrtrujhgyg
-sytuuyjoljbjg
-xsytghilkb
-dyyjkgyuiklkjrtyu
-ftyij
-vtyhkk
 
 **[скачать и установить https://git-scm.com/](https://git-scm.com/)**
 
-**[скачать и установить https://git-scm.com/](https://git-scm.com/)**
-
-**[скачать и установить https://git-scm.com/](https://git-scm.com/)**
 
 ## Установка имени и электронной почты
 
